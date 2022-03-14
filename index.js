@@ -11,7 +11,10 @@ const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 client.on("ready", () => {
-    client.user.setActivity("Speed", { type: "WATCHING"})
+    client.user.setStatus
+    { type: "idle"}
+    client.user.setActivity("Irfan-kun", { type: "WATCHING"})
+
 })
 
 client.on('message', msg => {
@@ -24,4 +27,4 @@ client.on('message', msg => {
 // feature to hide the token we got earlier. 
 
 
-client.login('PLACE_TOKEN_HERE');
+client.login('ODk4OTU1ODE1NzAzMTc5Mjk0.YWrv2A.Pk10BqlEKoOwUBAuqHXNtedudMI');
